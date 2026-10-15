@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine($"\tMats Huygens\n----------------------------");
+            Console.ResetColor();
+            Console.WriteLine($"{"Opleiding: ", -15}Graduaat Programmeren");
+            Console.WriteLine($"{"Klasgroep: ", -15}1PROE");
+            Console.WriteLine($"{"Leukste olod: ", -15}C# Essentials");
+
         }
     }
 }
