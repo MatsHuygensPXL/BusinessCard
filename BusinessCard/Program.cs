@@ -12,6 +12,9 @@
             Console.WriteLine($"{"Leukste olod: ", -15}C# Essentials");
             Console.ForegroundColor = ConsoleColor.Black;
             Console.WriteLine("Groetjes van de Jan");
+            Console.ReadLine();
+            Console.Beep(440, 500);
+
         }
     }
 }
